@@ -1,0 +1,1 @@
+const memberName=[...document.querySelectorAll(".member-name")];function fillInitialsIcons(e){for(let l of e){let e=l.innerText.split(" ")[0].split(""),n=l.innerText.split(" ")[1].split(""),t=e[0]+n[0];l.children[0].innerText=t.toUpperCase()}}fillInitialsIcons(memberName);

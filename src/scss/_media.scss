@@ -1,0 +1,147 @@
+@media screen and (max-width: 768px) {
+    .header {
+        height: 70px;
+    }
+    .logo {
+        margin: 10px 30px;
+    }
+    .main {
+        margin-top: 40px;
+    }
+    .flex-column {
+        &.left {
+            width: 35%;
+        }
+        &.right {
+            width: 60%;
+        }
+    }
+    .block-info {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .initials{
+        margin-right: 10px;
+        &.large  {
+            font-size: 11px;
+            padding: 5px 0;
+            width: 22px;
+            top: -2px;
+            left: -28px;
+        }
+    }
+    .flight-details {
+        padding: 20px 15px;
+    }
+    .airline {
+        margin-left: 40px;
+    }
+    .airline-logo {
+        left: -40px;
+    }
+    .flight-date {
+        padding: 3px 5px;
+    }
+    .flight-number {
+        margin-top: 5px;
+        margin-left: 40px;
+        & .flight-class {
+            margin: 0 6px;
+            &::before {
+                right: -7px;
+            }
+            &::after {
+                left: -7px;
+            }
+        }
+    }
+    .destination {
+        margin-top: 20px;
+        margin-left: 40px;
+        &::before {
+            left: -32px;
+        }
+    }
+    .airport {
+        margin-left: 40px;
+    }
+    .time {
+        left: -55px;
+    }
+    .airport-abbr {
+        margin-right: 7px;
+    }
+    .airport-full-name {
+        margin-bottom: 7px;
+    }
+    .controll-tool {
+        top: 25px;
+        right: 35px;
+    }
+    .guest-item {
+        grid-row-gap: 15px;
+        padding-bottom: 15px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .guest-email,
+    .guest-number {
+        font-size: 10px;
+    }
+    .guest-phone {
+        font-size: 10px;
+    }
+    .rewards {
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    .watsapp {
+        top: -4px;
+        right: 20px;
+    }
+    .telegram {
+        top: -4px;
+        right: 0px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .logo {
+        margin: 10px 30px;
+    }
+    .main {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .flex-column {
+        margin-left: 50px;
+        &.left {
+            width: 80%;
+        }
+        &.right {
+            width: 80%;
+        }
+    }
+    .controll-tool {
+        top: 40px;
+        right: 20px;
+    }
+    .guest-item {
+        grid-template-columns: 1fr;
+    }
+    .watsapp {
+        top: -4px;
+        left: 95px;
+    }
+    .telegram {
+        top: -4px;
+        left: 120px;
+    }
+    .guest-info-title {
+        font-size: 12px;
+    }
+    .rewards {
+        font-size: 12px;
+    }
+}
