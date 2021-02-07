@@ -87,7 +87,7 @@ const watcher = ()=> {
 };
 
 gulp.task('build',gulp.series(
-    // cleanBuild,
+    cleanBuild,
     htmlBuild,
     fontsBuild,
     scssBuild,
