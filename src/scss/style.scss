@@ -61,6 +61,7 @@ body {
 .base-block {
     @include baseBlock;
     margin-bottom: 30px;
+    line-hight: 1.5;
 }
 .title {
     @include paddingSide;
